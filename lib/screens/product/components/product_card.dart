@@ -46,8 +46,8 @@ class ProductCard extends StatelessWidget {
             Positioned(
               top: 0,
               right: 0,
-              child: Hero(
-                tag: '${product.id}',
+             // child: Hero(
+              //  tag: '${product.id}',
                 child: Container(
                   padding: const EdgeInsets.symmetric(horizontal: 8),
                   height: 160,
@@ -57,8 +57,9 @@ class ProductCard extends StatelessWidget {
                     fit: BoxFit.cover,
                   ),
                 ),
-              ),
+            //  ),
             ),
+
             Positioned(
               left: 0,
               bottom: 0,
@@ -77,23 +78,21 @@ class ProductCard extends StatelessWidget {
                           style: Theme.of(context).textTheme.button
                       ),
                     ),
-                    Spacer(),
-                    Container(
-                      padding: EdgeInsets.symmetric(
-                        horizontal: kDefaultPadding * 1.5,
-                        vertical:  kDefaultPadding /4,
-                      ),
-                      child: Text('\$${product.price.toString()}',
-                        style:Theme.of(context).textTheme.button ,),
-                      decoration: BoxDecoration(
-                        color: kSecondaryColor,
-                        borderRadius: BorderRadius.only(
-                          bottomLeft: Radius.circular(22),
-                          topRight:  Radius.circular(22),
-                        ),
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: kDefaultPadding),
+                      child: Text(product.scientificName,
+                          textAlign:TextAlign.left,
+                          style: TextStyle(
+                           fontWeight: FontWeight.w400,
+                           fontFamily: 'Pacifico',
+                           fontStyle: FontStyle.italic,
 
+                          )
                       ),
-                    )
+                    ),
+
+                    Spacer(),
+
                   ],
                 ),
 

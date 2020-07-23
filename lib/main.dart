@@ -19,6 +19,12 @@ class MyApp extends StatelessWidget {
         primaryColor: kPrimaryColor,
         accentColor: kPrimaryColor,
         visualDensity: VisualDensity.adaptivePlatformDensity,
+        dividerTheme: DividerThemeData(
+            space: 30,
+            color: Colors.grey,
+            indent: 90,
+            endIndent: 90,
+        )
       ),
       home: ProductScreen(),
     );

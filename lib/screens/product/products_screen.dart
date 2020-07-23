@@ -8,7 +8,7 @@ class ProductScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: kPrimaryColor,
-      appBar: buildAppBar(),
+    //  appBar: buildAppBar(),
       body: Body()
 
 
