@@ -77,7 +77,11 @@ List<Disease> mango =[
     ],
     prevention: [
       "Susceptible mango varieties should be protected with fungicide in commercial production and the timing of the applications are critical to successful control",
-      "appropriate fungicide should be applied during flowering and fruit development"
+      "appropriate fungicide should be applied during flowering and fruit development",
+      "emove all weeds from around tree bases",
+      "employ a wider tree spacing to increase air circulation around the trees",
+      "badly infested trees can be treated with copper containing fungicides",
+
     ] ,
     image: "assets/images/Anthracnose.jpg",
 
@@ -108,6 +112,8 @@ List<Disease> mango =[
     "emove all weeds from around tree bases",
     "employ a wider tree spacing to increase air circulation around the trees",
     "badly infested trees can be treated with copper containing fungicides",
+    "Susceptible mango varieties should be protected with fungicide in commercial production and the timing of the applications are critical to successful control",
+    "appropriate fungicide should be applied during flowering and fruit development",
   ] ,
   image: "assets/images/Algal_leaf_spot.jpg",
 
